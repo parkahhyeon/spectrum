@@ -1,18 +1,21 @@
-# Jekyll configuration
+# Jekyll configuration 
 markdown: kramdown
 highlighter: rouge
 paginate: 100 # it will paginate after this number
-language: 'en-uk'
-words_per_minute: 200
+language: 'ko-KR'
+breadcrumbs: TRUE # 브레드크럼 사용 여부. true/false(defalut), _data/ui-text.yml에 다국어 지원 가능하다.
+words_per_minute: 200 # 해당 포스트 읽는데 걸리는 시간을 계산하기 위해 대략 분당 읽는 수가 몇 글자가 될지 적는 공간.
 
-# edit baseurl to simply '/' if using as your personal page (instead of a project page)
-baseurl: /jasper2/
+# edit base to simply '/' if using as your personal page (instead of a project page)
+url: "https://Ahhyeon_tech.github.io"  # github 블로그 호스트 주소
+baseurl: /blog/  # subPath https://ahhyeon.github.io/blog 라고 하고 싶을 시 "/blog" 라고 적는다.
 
 # Website info
-title: Ghost
-description: The professional publishing platform
+title: "AH_SPIELRAUM"
+description: The professional publishing platform  # Meta 태그에 들어가는 영역
 cover: assets/images/blog-cover.jpg
-logo: assets/images/blog-icon.png
+logo: assets/images/blog-icon.png # 타이틀 옆에 작게 들어갈 이미지
+masthead_title: "개발자의 자격" # homepage 최상단에 들어갈 타이틀
 logo_dark: assets/images/favicon.png
 favicon: assets/images/favicon.png
 CNAME: #add cname for website to be created
